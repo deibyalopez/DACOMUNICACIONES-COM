@@ -11,6 +11,21 @@ html {
 }
 /*----------------------Menú principal--------------------------------*/
 
+.boton-menu { 
+  width: 0px;
+  position: fixed;
+  right: 2%;
+  top: 2%;
+  z-index: 40;
+}
+
+
+
+.equis {
+  
+  font-size: 0px;
+  }
+
 .menu {
   display: flex;
   justify-content: center;
@@ -105,7 +120,9 @@ html {
   font-family: "Raleway";
   font-style: italic;
   font-size: 30px;
+  text-align: center;
   color: #ffffff;
+  padding: 0% 5% 0%;
   position: relative;
   z-index: 10;
 }

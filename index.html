@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=D, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css"/>
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i&display=swap"
     rel="stylesheet" />
@@ -19,13 +19,16 @@
     <img class="wh"src=".//whatsapp-blanco.svg" alt="Whatsapp">
   </div>
 
+  <img class="boton-menu" onclick="abrirMenu()" src=".//menu.svg" alt="Menú">
+
 <nav class="menu" id="menu">
-      <a class="enlace" href="#inicio" style="text-decoration:none">Inicio</a>
-      <a class="enlace" href="#somos" style="text-decoration:none">Quiénes somos</a>
-      <a class="enlace" href="#servicios" style="text-decoration:none">Servicios</a>
-      <a class="enlace" href="#portafolio" style="text-decoration:none">Portafolio</a>
-      <a class="enlace" href="#equipo" style="text-decoration:none">Nuestro equipo</a>
-      <a class="enlace" href="#contacto" style="text-decoration:none">Contacto</a>
+      <a class="equis" href="javascript:void(0)" style="text-decoration:none" onclick="cerrarMenu()">x</a>
+      <a class="enlace" href="#inicio" onclick="cerrarMenu()" style="text-decoration:none">Inicio</a>
+      <a class="enlace" href="#somos" onclick="cerrarMenu()" onclick="cerrarMenu()" style="text-decoration:none">Quiénes somos</a>
+      <a class="enlace" href="#servicios" onclick="cerrarMenu()" style="text-decoration:none">Servicios</a>
+      <a class="enlace" href="#portafolio" onclick="cerrarMenu()" style="text-decoration:none">Portafolio</a>
+      <a class="enlace" href="#equipo" onclick="cerrarMenu()" style="text-decoration:none">Nuestro equipo</a>
+      <a class="enlace" href="#contacto" onclick="cerrarMenu()" style="text-decoration:none">Contacto</a>
 </nav>
 
 
